@@ -22,9 +22,14 @@ This Python script performs ensemble inference using the Pangu weather model, fo
 
 *   Python 3.x
 *   PyTorch
+*   apex (a PyTorch extention)
 *   ONNX Runtime
 *   xarray
 *   pynvml
 *   dotenv
 *   earth2mip
 *   cdsapi
+
+## Note About Package Versions
+
+Compatibility issues between your hardware, NVIDIA driver versions, CUDA versions, and the versions of any Python packages that may depend on these are common. If you run into this pain point when recreating this workflow and require assistance, reach out to the NSF Unidata team at support-ml@unidata.ucar.edu.
