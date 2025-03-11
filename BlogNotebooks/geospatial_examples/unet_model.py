@@ -228,7 +228,7 @@ class UNet(nn.Module):
         
         # Output path
         logits = self.outc(x)   # [batch, 1, h, w]
-        return self.sigmoid(logits)
+        return logits
 
 
 def train_model(model, train_loader, criterion, optimizer, device, num_epochs=10):
